@@ -1016,6 +1016,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2023-05-29 20:39:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2023-05-23 00:52:05 +0000"
@@ -1364,6 +1370,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2023-05-29 20:39:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/noteblock": {
     "criteria": {
       "has_redstone": "2023-05-21 21:42:24 +0000"
@@ -1427,6 +1439,12 @@
   "enderioconduits:start/2_conduit_binder": {
     "criteria": {
       "inv_changed-enderio:conduit_binder": "2023-05-25 00:23:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2023-05-29 20:39:11 +0000"
     },
     "done": true
   },
