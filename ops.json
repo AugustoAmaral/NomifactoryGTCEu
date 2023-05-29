@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "69cb94bc-9e5d-4a4f-b892-af804f64b282",
+    "name": "NewYearNewGabo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

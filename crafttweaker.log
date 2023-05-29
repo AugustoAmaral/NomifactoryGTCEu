@@ -1,24 +1,24 @@
 [PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-BrÃ¸nsted
-AdaraChristine
-Jessie Sims
-Hooley
-Luvely
-Peregrinus11
-WaterMoon
-DreamThorn
-Pongo Sapiens
-NickT
-Phillip Swearingain
-Zuniroa
-Belathus
-NerdyWhiteGuy
-Ivy_
-Ncc1702
-Legend
 Spencer Gilbert
+Ncc1702
+WaterMoon
+Zuniroa
+BrÃ¸nsted
+Peregrinus11
+Pongo Sapiens
+Belathus
+AdaraChristine
+NerdyWhiteGuy
 Quaternary
+Fbigummy
+Hooley
+DreamThorn
+Legend
 Genryu
+NickT
+Jessie Sims
+Ivy_
+Phillip Swearingain
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
@@ -75,7 +75,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: expertmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: normalmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[-9998:crafttweaker]: JEICleanup.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 209ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 249ms
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][SERVER][INFO] IgnoreBracketErrorPreprocessor found in {[0:crafttweaker]: ModSpecific/AppliedEnergistics2.zs}, ignoring errors in that file
@@ -130,7 +130,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: expertmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: normalmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[-9998:crafttweaker]: JEICleanup.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 208ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 206ms
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech]]
 [PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [gregtech]
 [PREINITIALIZATION][SERVER][INFO] IgnoreBracketErrorPreprocessor found in {[0:crafttweaker]: ModSpecific/AppliedEnergistics2.zs}, ignoring errors in that file
@@ -185,7 +185,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [gregtech | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: expertmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [gregtech | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: normalmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [gregtech | SIDE_SERVER]: Skipping file {[-9998:crafttweaker]: JEICleanup.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 110ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 119ms
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech], [recipeevent | crafttweaker]]
@@ -552,142 +552,142 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Adding Californium-250 to ore dictionary entry questbookCalifornium
 [INITIALIZATION][SERVER][INFO] Adding Californium-251 to ore dictionary entry questbookCalifornium
 [INITIALIZATION][SERVER][INFO] Adding Californium-252 to ore dictionary entry questbookCalifornium
-[INITIALIZATION][SERVER][INFO] Adding Small Magnalium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Platinum Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Magnalium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Platinum Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Magnalium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Platinum Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Magnalium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Platinum Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Restrictive Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Restrictive Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Restrictive Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding item.contenttweaker.pulsatingdust.name to ore dictionary entry dustPulsating
 [INITIALIZATION][SERVER][INFO] Adding item.contenttweaker.pulsatingmesh.name to ore dictionary entry meshPulsating
 [INITIALIZATION][SERVER][INFO] Adding Fluix Crystal to ore dictionary entry gemFluix
@@ -807,12 +807,12 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: CraftingCoreUpgrade.zs}
 [INITIALIZATION][SERVER][INFO] --- CraftingCoreUpgrade.zs initialized ---
 [INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Palis Crystal Block
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Enori Crystal Block
 [INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Void Crystal Block
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Enori Crystal Block
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Diamatine Crystal Block
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Canola Seed
 [INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Restonia Crystal Block
 [INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Emeradic Crystal Block
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Canola Seed
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Diamatine Crystal Block
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: CustomWrench.zs}
 [INITIALIZATION][SERVER][INFO] Adding Crescent Hammer to ore dictionary entry wrenches
 [INITIALIZATION][SERVER][INFO] Adding Yeta Wrench to ore dictionary entry wrenches
@@ -1113,7 +1113,7 @@ Use JEI to check potential vein depth"
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[-9998:crafttweaker]: JEICleanup.zs}
 [INITIALIZATION][SERVER][INFO] Adding tooltip for <appliedenergistics2:facade>.withTag({damage: 15, item: "gregtech:meta_block_compressed_7"}): "Facades can be crafted from most blocks, but are hidden from JEI to reduce clutter"
 [INITIALIZATION][SERVER][INFO] Adding tooltip for <gregtech:meta_item_1:330>.withTag({Facade: {id: "minecraft:stone", Count: 1 as byte, Damage: 0 as short}}): "GTCEu Cable facades can be made from most non-tile-entites, and craft into different amounts based on the metal used."
-[INITIALIZATION][SERVER][INFO] Completed script loading in: 1063ms
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 1056ms
 [POSTINITIALIZATION][SERVER][INFO] Removing Inscriber Entry for Printed Silicon
 [POSTINITIALIZATION][SERVER][INFO] Adding Inscriber Entry for Printed Silicon
 [POSTINITIALIZATION][SERVER][INFO] Removing Inscriber Entry for Engineering Processor
@@ -1351,8 +1351,8 @@ Use JEI to check potential vein depth"
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Liquid Fueled Engine with name ar_liquid_engine
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Seat with name ct_shaped1469375226
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Structure Tower with name ct_shaped-1803454788
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Low Pressure Tank with name ar_pressure_tank_0
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pressure Tank with name ar_pressure_tank_1
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pressure Tank with name ar_pressure_tank_0
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Low Pressure Tank with name ar_pressure_tank_1
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Super High Pressure Tank with name ar_pressure_tank_2
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for High Pressure Tank with name ar_pressure_tank_3
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Packaging Component with name pauto_package_component

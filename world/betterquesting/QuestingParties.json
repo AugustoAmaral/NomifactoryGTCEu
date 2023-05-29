@@ -5,6 +5,10 @@
         "0:10": {
           "status:8": "OWNER",
           "uuid:8": "69cb94bc-9e5d-4a4f-b892-af804f64b282"
+        },
+        "1:10": {
+          "status:8": "MEMBER",
+          "uuid:8": "49e1b2a9-d73e-4a53-9726-98afa31cb8a9"
         }
       },
       "partyID:3": 0,
