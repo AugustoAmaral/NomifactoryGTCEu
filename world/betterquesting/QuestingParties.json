@@ -1,0 +1,18 @@
+{
+  "parties:9": {
+    "0:10": {
+      "members:9": {
+        "0:10": {
+          "status:8": "OWNER",
+          "uuid:8": "69cb94bc-9e5d-4a4f-b892-af804f64b282"
+        }
+      },
+      "partyID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Nomiworld"
+        }
+      }
+    }
+  }
+}
