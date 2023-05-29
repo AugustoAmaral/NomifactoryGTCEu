@@ -1,7 +1,19 @@
 {
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2023-05-29 22:07:33 +0000"
+    },
+    "done": true
+  },
   "nuclearcraft:root": {
     "criteria": {
       "location": "2023-05-29 13:40:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2023-05-29 22:07:38 +0000"
     },
     "done": true
   },

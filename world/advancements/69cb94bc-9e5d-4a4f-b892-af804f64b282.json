@@ -389,6 +389,12 @@
     },
     "done": true
   },
+  "gregtech:low_voltage/17_lv_pump": {
+    "criteria": {
+      "location": "2023-05-29 22:26:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2023-05-21 21:36:59 +0000"
@@ -851,6 +857,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2023-05-24 16:34:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2023-05-29 21:52:12 +0000"
     },
     "done": true
   },
