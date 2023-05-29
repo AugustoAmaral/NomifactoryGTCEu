@@ -542,6 +542,12 @@
     },
     "done": true
   },
+  "gregtech:low_voltage/20_lv_conveyor": {
+    "criteria": {
+      "location": "2023-05-29 21:31:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brick_stairs": {
     "criteria": {
       "has_brick_block": "2023-05-21 22:20:34 +0000"
@@ -1160,6 +1166,12 @@
     },
     "done": true
   },
+  "gregtech:steam/14_magnetic_iron": {
+    "criteria": {
+      "location": "2023-05-29 21:11:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2023-05-23 12:41:22 +0000"
@@ -1439,6 +1451,12 @@
   "enderioconduits:start/2_conduit_binder": {
     "criteria": {
       "inv_changed-enderio:conduit_binder": "2023-05-25 00:23:41 +0000"
+    },
+    "done": true
+  },
+  "gregtech:medium_voltage/32_electric_drill": {
+    "criteria": {
+      "location": "2023-05-29 21:27:26 +0000"
     },
     "done": true
   },

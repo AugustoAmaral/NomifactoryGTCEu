@@ -2228,14 +2228,29 @@
       }
     },
     "147:10": {
-      "completed:9": {},
+      "completed:9": {
+        "0:10": {
+          "claimed:1": 0,
+          "timestamp:4": 1685394058552,
+          "uuid:8": "69cb94bc-9e5d-4a4f-b892-af804f64b282"
+        }
+      },
       "questID:3": 147,
       "tasks:9": {
         "0:10": {
-          "completeUsers:9": {},
+          "completeUsers:9": {
+            "0:8": "69cb94bc-9e5d-4a4f-b892-af804f64b282"
+          },
           "index:3": 0,
           "taskID:8": "bq_standard:retrieval",
-          "userProgress:9": {}
+          "userProgress:9": {
+            "0:10": {
+              "data:9": {
+                "0:3": 1
+              },
+              "uuid:8": "69cb94bc-9e5d-4a4f-b892-af804f64b282"
+            }
+          }
         }
       }
     },
@@ -6832,14 +6847,29 @@
       }
     },
     "516:10": {
-      "completed:9": {},
+      "completed:9": {
+        "0:10": {
+          "claimed:1": 0,
+          "timestamp:4": 1685395918544,
+          "uuid:8": "69cb94bc-9e5d-4a4f-b892-af804f64b282"
+        }
+      },
       "questID:3": 516,
       "tasks:9": {
         "0:10": {
-          "completeUsers:9": {},
+          "completeUsers:9": {
+            "0:8": "69cb94bc-9e5d-4a4f-b892-af804f64b282"
+          },
           "index:3": 0,
           "taskID:8": "bq_standard:retrieval",
-          "userProgress:9": {}
+          "userProgress:9": {
+            "0:10": {
+              "data:9": {
+                "0:3": 1
+              },
+              "uuid:8": "69cb94bc-9e5d-4a4f-b892-af804f64b282"
+            }
+          }
         }
       }
     },
@@ -8262,7 +8292,14 @@
           "completeUsers:9": {},
           "index:3": 0,
           "taskID:8": "bq_standard:retrieval",
-          "userProgress:9": {}
+          "userProgress:9": {
+            "0:10": {
+              "data:9": {
+                "0:3": 0
+              },
+              "uuid:8": "69cb94bc-9e5d-4a4f-b892-af804f64b282"
+            }
+          }
         }
       }
     },
