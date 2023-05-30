@@ -1046,6 +1046,12 @@
     },
     "done": true
   },
+  "gregtech:low_voltage/23_lv_assembler": {
+    "criteria": {
+      "location": "2023-05-30 12:06:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2023-05-23 00:52:05 +0000"
