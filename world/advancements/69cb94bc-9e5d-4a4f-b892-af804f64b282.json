@@ -1613,6 +1613,12 @@
     },
     "done": true
   },
+  "gregtech:low_voltage/22_lv_robot_arm": {
+    "criteria": {
+      "location": "2023-05-30 10:55:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2023-05-23 12:29:32 +0000"
