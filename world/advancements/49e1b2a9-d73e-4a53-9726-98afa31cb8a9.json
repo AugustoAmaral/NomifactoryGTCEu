@@ -41,6 +41,12 @@
     },
     "done": false
   },
+  "gregtech:low_voltage/23_lv_assembler": {
+    "criteria": {
+      "location": "2023-05-30 21:46:37 +0000"
+    },
+    "done": true
+  },
   "gregtech:steam/2_more_tools": {
     "criteria": {
       "location": "2023-05-30 10:48:13 +0000"
@@ -100,7 +106,8 @@
       "swampland": "2023-05-30 11:06:12 +0000",
       "taiga": "2023-05-29 13:40:21 +0000",
       "taiga_hills": "2023-05-30 11:20:27 +0000",
-      "extreme_hills": "2023-05-29 13:40:41 +0000"
+      "extreme_hills": "2023-05-29 13:40:41 +0000",
+      "river": "2023-05-30 21:49:33 +0000"
     },
     "done": false
   },
@@ -170,6 +177,12 @@
     },
     "done": true
   },
+  "enderioconduits:root": {
+    "criteria": {
+      "inv_changed-enderio:clay": "2023-05-30 21:50:23 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2023-05-30 11:19:30 +0000"
@@ -209,6 +222,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "entered_water": "2023-05-30 11:46:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2023-05-30 21:50:23 +0000"
     },
     "done": true
   },
