@@ -1448,6 +1448,12 @@
     },
     "done": true
   },
+  "gregtech:low_voltage/25_large_boiler": {
+    "criteria": {
+      "location": "2023-05-31 21:41:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/string_to_wool": {
     "criteria": {
       "has_string": "2023-05-21 21:26:05 +0000"
