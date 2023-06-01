@@ -782,6 +782,12 @@
     },
     "done": true
   },
+  "gregtech:medium_voltage/33_chainsaw": {
+    "criteria": {
+      "location": "2023-06-01 00:31:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2023-05-21 22:27:21 +0000"
@@ -1181,6 +1187,12 @@
   "minecraft:recipes/redstone/wooden_pressure_plate": {
     "criteria": {
       "has_planks": "2023-05-21 21:29:41 +0000"
+    },
+    "done": true
+  },
+  "gregtech:low_voltage/21_machine_controller_cover": {
+    "criteria": {
+      "location": "2023-05-31 23:49:41 +0000"
     },
     "done": true
   },
