@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2023-06-01 13:46:00 +0000"
+    },
+    "done": true
+  },
   "gregtech:steam/2_more_tools": {
     "criteria": {
       "location": "2023-05-30 10:48:13 +0000"
@@ -56,6 +62,12 @@
   "gregtech:medium_voltage/32_electric_drill": {
     "criteria": {
       "location": "2023-05-30 10:50:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar": {
+    "criteria": {
+      "has_reeds": "2023-06-01 13:46:00 +0000"
     },
     "done": true
   },
@@ -109,6 +121,12 @@
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2023-06-01 02:49:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2023-06-01 13:46:40 +0000"
     },
     "done": true
   },
@@ -253,6 +271,12 @@
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_sand": "2023-06-01 02:49:42 +0000"
+    },
+    "done": true
+  },
+  "gregtech:low_voltage/26_arc_furnace": {
+    "criteria": {
+      "location": "2023-06-01 13:43:06 +0000"
     },
     "done": true
   },
