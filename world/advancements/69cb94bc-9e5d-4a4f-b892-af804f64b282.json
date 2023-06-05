@@ -233,6 +233,12 @@
     },
     "done": true
   },
+  "gregtech:low_voltage/19_lv_pump_block": {
+    "criteria": {
+      "location": "2023-06-05 13:02:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2023-05-21 21:24:53 +0000"
