@@ -1418,6 +1418,12 @@
     },
     "done": true
   },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2023-06-05 23:02:31 +0000"
+    },
+    "done": true
+  },
   "enderioconduits:energy/1_energy_conduit": {
     "criteria": {
       "inv_changed-enderio:power_conduit": "2023-05-25 00:24:10 +0000"
@@ -1652,6 +1658,12 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2023-05-21 21:37:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2023-06-05 23:01:06 +0000"
     },
     "done": true
   },
