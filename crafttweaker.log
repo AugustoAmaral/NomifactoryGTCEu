@@ -1,24 +1,24 @@
 [PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-WaterMoon
-Jessie Sims
-Spencer Gilbert
-Luvely
-DreamThorn
-BrÃ¸nsted
-Pongo Sapiens
 Phillip Swearingain
-NickT
-Zuniroa
-Belathus
-Genryu
-Legend
-Peregrinus11
-NerdyWhiteGuy
-AdaraChristine
+Fbigummy
 Hooley
-Ncc1702
+Genryu
+Belathus
+NickT
+Spencer Gilbert
+Peregrinus11
+Luvely
+BrÃ¸nsted
+NerdyWhiteGuy
+Zuniroa
 Ivy_
 Quaternary
+DreamThorn
+Legend
+Ncc1702
+AdaraChristine
+Jessie Sims
+Pongo Sapiens
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
@@ -75,7 +75,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: expertmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: normalmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[-9998:crafttweaker]: JEICleanup.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 199ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 212ms
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][SERVER][INFO] IgnoreBracketErrorPreprocessor found in {[0:crafttweaker]: ModSpecific/AppliedEnergistics2.zs}, ignoring errors in that file
@@ -130,7 +130,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: expertmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: normalmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[-9998:crafttweaker]: JEICleanup.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 220ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 216ms
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech]]
 [PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [gregtech]
 [PREINITIALIZATION][SERVER][INFO] IgnoreBracketErrorPreprocessor found in {[0:crafttweaker]: ModSpecific/AppliedEnergistics2.zs}, ignoring errors in that file
@@ -185,18 +185,16 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [gregtech | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: expertmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [gregtech | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: normalmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [gregtech | SIDE_SERVER]: Skipping file {[-9998:crafttweaker]: JEICleanup.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 121ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 124ms
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech], [recipeevent | crafttweaker]]
 [INITIALIZATION][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
 [INITIALIZATION][SERVER][INFO] IgnoreBracketErrorPreprocessor found in {[0:crafttweaker]: ModSpecific/AppliedEnergistics2.zs}, ignoring errors in that file
 [INITIALIZATION][SERVER][INFO] Ignoring script {[0:crafttweaker]: ModSpecific/FluxNetworks.zs} due to the following #modloaded preprocessor settings: [{fluxnetworks}]
-[INITIALIZATION][SERVER][INFO] Ignoring script {[0:crafttweaker]: coins.zs} as current pack mode expert is not in the scripts pack modes [normal]
-[INITIALIZATION][SERVER][INFO] Ignoring script {[0:crafttweaker]: dml.zs} as current pack mode expert is not in the scripts pack modes [normal]
-[INITIALIZATION][SERVER][INFO] Ignoring script {[0:crafttweaker]: multiblock_dml.zs} as current pack mode expert is not in the scripts pack modes [normal]
-[INITIALIZATION][SERVER][INFO] Ignoring script {[0:crafttweaker]: multiblocks_normal.zs} as current pack mode expert is not in the scripts pack modes [normal]
-[INITIALIZATION][SERVER][INFO] Ignoring script {[0:crafttweaker]: normalmode.zs} as current pack mode expert is not in the scripts pack modes [normal]
+[INITIALIZATION][SERVER][INFO] Ignoring script {[0:crafttweaker]: expert_processing.zs} as current pack mode normal is not in the scripts pack modes [expert]
+[INITIALIZATION][SERVER][INFO] Ignoring script {[0:crafttweaker]: expertmode.zs} as current pack mode normal is not in the scripts pack modes [expert]
+[INITIALIZATION][SERVER][INFO] Ignoring script {[0:crafttweaker]: multiblocks_expert.zs} as current pack mode normal is not in the scripts pack modes [expert]
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[999:crafttweaker]: gregtech_recipemaps.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[998:crafttweaker]: _oreDict.zs}
 [INITIALIZATION][SERVER][INFO] -------------- Ore Dictionary Start --------------
@@ -552,142 +550,142 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Adding Californium-250 to ore dictionary entry questbookCalifornium
 [INITIALIZATION][SERVER][INFO] Adding Californium-251 to ore dictionary entry questbookCalifornium
 [INITIALIZATION][SERVER][INFO] Adding Californium-252 to ore dictionary entry questbookCalifornium
-[INITIALIZATION][SERVER][INFO] Adding Small Tin Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Osmium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Platinum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Magnalium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Tin Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Osmium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Platinum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Cobalt Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Osmium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Americium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Platinum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Tin Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Osmium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Platinum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Cobalt Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Osmium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Americium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Platinum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Tin Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Osmium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Platinum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Cobalt Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Osmium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Americium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Platinum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Cobalt Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Osmium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Americium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Platinum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Small Restrictive Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Small Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Restrictive Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Large Restrictive Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
-[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Large Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Cupronickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Nickel Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Cobalt Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Osmium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Black Bronze Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Ultimet Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Polyvinyl Chloride (PVC) Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Magnalium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Americium Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Rose Gold Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Cobalt Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Tin Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Sterling Silver Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Platinum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Brass Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Electrum Item Pipe to ore dictionary entry questbookItemPipes
+[INITIALIZATION][SERVER][INFO] Adding Huge Restrictive Osmiridium Item Pipe to ore dictionary entry questbookItemPipes
 [INITIALIZATION][SERVER][INFO] Adding item.contenttweaker.pulsatingdust.name to ore dictionary entry dustPulsating
 [INITIALIZATION][SERVER][INFO] Adding item.contenttweaker.pulsatingmesh.name to ore dictionary entry meshPulsating
 [INITIALIZATION][SERVER][INFO] Adding Fluix Crystal to ore dictionary entry gemFluix
@@ -806,13 +804,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Skipping file {[0:contenttweaker]: ContentTweaker.zs} as we are currently loading with a different loader
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: CraftingCoreUpgrade.zs}
 [INITIALIZATION][SERVER][INFO] --- CraftingCoreUpgrade.zs initialized ---
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Canola Seed
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Diamatine Crystal Block
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Palis Crystal Block
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Emeradic Crystal Block
 [INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Void Crystal Block
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Enori Crystal Block
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Emeradic Crystal Block
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Palis Crystal Block
 [INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Restonia Crystal Block
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Diamatine Crystal Block
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Canola Seed
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Enori Crystal Block
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: CustomWrench.zs}
 [INITIALIZATION][SERVER][INFO] Adding Crescent Hammer to ore dictionary entry wrenches
 [INITIALIZATION][SERVER][INFO] Adding Yeta Wrench to ore dictionary entry wrenches
@@ -834,6 +832,9 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Adding Dense Gold Ore to ore dictionary entry denseOreGold
 [INITIALIZATION][SERVER][INFO] Adding Dense Coal Ore to ore dictionary entry denseOreCoal
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: dml.zs}
+[INITIALIZATION][SERVER][INFO] Translating tile.deepmoblearning.machine_casing.name to Dark Steel Machine Hull
+[INITIALIZATION][SERVER][INFO] Translating item.deepmoblearning.polymer_clay.name to Pulsating Polymer Clay
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <deepmoblearning:glitch_fragment>: "Obtained by crushing Glitch Hearts against Obsidian."
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: DraconicEvolution.zs}
 [INITIALIZATION][SERVER][INFO] Translating item.draconicevolution:draconic_ingot.name to Activated Awakened Draconium Ingot
 [INITIALIZATION][SERVER][INFO] Translating tile.draconicevolution:draconium_block.name to Activated Draconium Block
@@ -1022,19 +1023,18 @@ Use JEI to check potential vein depth"
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ModSpecific/LazyAE2.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ModSpecific/ProjectRedIllumination.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: multiblock_dml.zs}
+[INITIALIZATION][SERVER][INFO] Registered multiblock: multiblocktweaker:dml_sim_chamber, with meta 3100
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: multiblocks_expert.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: multiblocks_normal.zs}
 [INITIALIZATION][SERVER][INFO] Registered multiblock: mbt:microverse_projector_basic, with meta 32000
 [INITIALIZATION][SERVER][INFO] Registered multiblock: mbt:microverse_projector_advanced, with meta 32001
 [INITIALIZATION][SERVER][INFO] Registered multiblock: mbt:microverse_projector_advanced_ii, with meta 32002
+[INITIALIZATION][SERVER][INFO] Registered multiblock: mbt:creative_tank_provider, with meta 32003
 [INITIALIZATION][SERVER][INFO] Translating tile.large_multiblock_casing.mixer_casing.name to Reaction-Safe Casing
-[INITIALIZATION][SERVER][INFO] Registered multiblock: multiblocktweaker:naquadah_reactor_1, with meta 32003
-[INITIALIZATION][SERVER][INFO] Adding tooltip for <gregtech:machine:32003>: "Produces exactly 3A ZPM, does not overclock"
-[INITIALIZATION][SERVER][INFO] Registered multiblock: multiblocktweaker:naquadah_reactor_2, with meta 32004
-[INITIALIZATION][SERVER][INFO] Adding tooltip for <gregtech:machine:32004>: "Produces exactly 3A UV, does not overclock"
-[INITIALIZATION][SERVER][INFO] Registered multiblock: multiblocktweaker:actualization_chamber, with meta 32005
-[INITIALIZATION][SERVER][INFO] Registered multiblock: multiblocktweaker:universal_crystallizer, with meta 32006
-[INITIALIZATION][SERVER][INFO] Adding a Table Crafting recipe for multiblocktweaker.machine.actualization_chamber.name
-[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: multiblocks_normal.zs}
+[INITIALIZATION][SERVER][INFO] Registered multiblock: multiblocktweaker:naquadah_reactor_1, with meta 32004
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <gregtech:machine:32004>: "Produces exactly 3A ZPM, does not overclock"
+[INITIALIZATION][SERVER][INFO] Registered multiblock: multiblocktweaker:naquadah_reactor_2, with meta 32005
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <gregtech:machine:32005>: "Produces exactly 3A UV, does not overclock"
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Nuclearcraft.zs}
 [INITIALIZATION][SERVER][INFO] Removing all nuclearcraft_manufactory recipes
 [INITIALIZATION][SERVER][INFO] Removing all nuclearcraft_isotope_separator recipes
@@ -1103,17 +1103,14 @@ Use JEI to check potential vein depth"
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: xTones.zs}
 [INITIALIZATION][SERVER][INFO] Adding tooltip for <xtones:lamp_flat>: "Requires a redstone signal to light."
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[-1:crafttweaker]: expertmode.zs}
-[INITIALIZATION][SERVER][INFO] Adding a Table Crafting recipe for item.contenttweaker.tierfourandhalfship.name
-[INITIALIZATION][SERVER][INFO] Adding tooltip for <contenttweaker:tierfourandhalfship>: "Kills mobs in dangerous microverses and collects their highly prized skeletons and parts."
-[INITIALIZATION][SERVER][INFO] Adding a Table Crafting recipe for item.contenttweaker.tiereightandhalfship.name
-[INITIALIZATION][SERVER][INFO] Adding tooltip for <contenttweaker:tiereightandhalfship>: "Harvests exclusive Gems and Metals from unexplored corners, from beyond the microverse."
-[INITIALIZATION][SERVER][INFO] Adding a Table Crafting recipe for Creative Quantum Chest
-[INITIALIZATION][SERVER][INFO] Adding a Table Crafting recipe for item.contenttweaker.exoticmaterialscatalyst.name
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[-1:crafttweaker]: normalmode.zs}
+[INITIALIZATION][SERVER][INFO] Adding a Table Crafting recipe for Creative Quantum Chest
+[INITIALIZATION][SERVER][INFO] Adding a Table Crafting recipe for Creative Drum
+[INITIALIZATION][SERVER][INFO] Adding a Table Crafting recipe for item.contenttweaker.exoticmaterialscatalyst.name
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[-9998:crafttweaker]: JEICleanup.zs}
 [INITIALIZATION][SERVER][INFO] Adding tooltip for <appliedenergistics2:facade>.withTag({damage: 15, item: "gregtech:meta_block_compressed_7"}): "Facades can be crafted from most blocks, but are hidden from JEI to reduce clutter"
 [INITIALIZATION][SERVER][INFO] Adding tooltip for <gregtech:meta_item_1:330>.withTag({Facade: {id: "minecraft:stone", Count: 1 as byte, Damage: 0 as short}}): "GTCEu Cable facades can be made from most non-tile-entites, and craft into different amounts based on the metal used."
-[INITIALIZATION][SERVER][INFO] Completed script loading in: 1366ms
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 1132ms
 [POSTINITIALIZATION][SERVER][INFO] Removing Inscriber Entry for Printed Silicon
 [POSTINITIALIZATION][SERVER][INFO] Adding Inscriber Entry for Printed Silicon
 [POSTINITIALIZATION][SERVER][INFO] Removing Inscriber Entry for Engineering Processor
@@ -1164,6 +1161,7 @@ Use JEI to check potential vein depth"
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "thermalfoundation:dust_signalum"
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "thermalfoundation:dust_lumium"
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "thermalfoundation:dust_enderium"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "thermalfoundation:block_dirt"
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "draconicevolution:draconic_ingot_1"
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "draconicevolution:draconium_ingot_1"
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "draconicevolution:draconium_block"
@@ -1265,25 +1263,15 @@ Use JEI to check potential vein depth"
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "thermalexpansion:augment_25"
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "thermalexpansion:satchel_1"
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "thermalexpansion:satchel_7"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "enderio:reservoir"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "enderio:farming_station"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "buildinggadgets:exchangingtool"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "ae2stuff:recipe5"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:clay_block_to_dust"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:clay_ball_to_dust"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:maintenance_hatch_automatic"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "appliedenergistics2:network/cells/fluid_storage_components_cell_1k_part"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "appliedenergistics2:network/cells/fluid_storage_components_cell_4k_part"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "appliedenergistics2:network/cells/fluid_storage_components_cell_16k_part"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "appliedenergistics2:network/cells/fluid_storage_components_cell_64k_part"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "actuallyadditions:recipes162"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "storagedrawers:upgrade_storage_emerald"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "storagedrawers:upgrade_storage_diamond"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gcym:parallel_hatch_iv"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gcym:parallel_hatch_luv"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gcym:parallel_hatch_zpm"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gcym:parallel_hatch_uv"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "appliedenergistics2:misc/vanilla_comparator"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:steam_oven"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:steam_grinder"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:fireclay_dust"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:electric_motor_lv_steel"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:electric_motor_lv_iron"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:basic_circuit_board"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:distillation_tower"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:blacklight"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "gregtech:filter_casing_sterile"
 [POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Infinity Ingot with name ct_shapeless1834880538
 [POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Infinity Plate with name ct_shapeless-920385675
 [POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Omnium Ingot with name ct_shapeless-496101586
@@ -1352,9 +1340,9 @@ Use JEI to check potential vein depth"
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Seat with name ct_shaped1469375226
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Structure Tower with name ct_shaped-1803454788
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pressure Tank with name ar_pressure_tank_0
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Super High Pressure Tank with name ar_pressure_tank_1
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Low Pressure Tank with name ar_pressure_tank_2
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for High Pressure Tank with name ar_pressure_tank_3
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Low Pressure Tank with name ar_pressure_tank_1
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for High Pressure Tank with name ar_pressure_tank_2
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Super High Pressure Tank with name ar_pressure_tank_3
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Packaging Component with name pauto_package_component
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Package Recipe Holder with name pauto_recipe_holder
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Packager with name pauto_packager
@@ -1519,12 +1507,137 @@ Use JEI to check potential vein depth"
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Obsidian Sword with name ct_shaped1876728438
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lapis Bow with name ct_shaped-901589769
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Emerald Bow with name ct_shaped323169744
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Drill Core with name ct_shaped-284753845
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Diamond Furnace with name ct_shapeless-312685837
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.stonewidget.name with name ct_shaped1877983775
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.stonewidgetup.name with name ct_shaped-1082370517
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.stonewidgetdown.name with name ct_shaped-533663676
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Stone Compound Gear with name ct_shaped1019740939
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.woodenwidget.name with name ct_shaped710653184
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.woodwidgetleft.name with name ct_shaped1879932270
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.woodwidgetright.name with name ct_shaped2018961911
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.alloywidget.name with name ct_shaped703218103
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.enderwidget.name with name ct_shaped764733129
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Rubber Tree Sapling with name ct_shaped1760623584
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Dark Oak Sapling with name ct_shaped1762230907
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Acacia Sapling with name ct_shaped-537605858
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Spruce Sapling with name ct_shaped1681550889
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Birch Sapling with name ct_shaped124233228
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Clay with name ct_shaped-357713074
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Canola Seeds with name ct_shaped1050872992
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Oak Sapling with name ct_shaped-1924388090
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sugar Canes with name ct_shaped2140237611
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cactus with name ct_shaped1993754329
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Potato with name ct_shaped-979366549
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Green Sapphire Ore with name ct_shaped-1209781694
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sapphire Ore with name ct_shaped-329337402
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cobaltite Ore with name ct_shaped359333773
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Neodymium Ore with name ct_shaped1594403559
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Realgar Ore with name ct_shaped-297555510
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Electrotine Ore with name ct_shaped-2002940526
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Tantalite Ore with name ct_shaped1914754222
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pitchblende Ore with name ct_shaped-945213849
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Saltpeter Ore with name ct_shaped-206281841
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Graphite Ore with name ct_shaped-1631691099
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Powellite Ore with name ct_shaped1121756644
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Oilsands Ore with name ct_shaped670896630
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Gold Ore with name ct_shaped-1836631364
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Emerald Ore with name ct_shaped1512306578
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Palladium Ore with name ct_shaped2033448005
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Molybdenum Ore with name ct_shaped2063682912
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Spawn Chicken with name ct_shaped1378700847
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Spawn Cow with name ct_shaped-53416085
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Spawn Pig with name ct_shaped-1680949664
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ilmenite Ore with name ct_shaped700192299
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Platinum Ore with name ct_shaped-980377850
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sheldonite Ore with name ct_shaped886283142
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Diamond Ore with name ct_shaped157074120
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Spawn Sheep with name ct_shaped343826041
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Tricalcium Phosphate Ore with name ct_shaped322772487
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Apatite Ore with name ct_shaped528832591
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sphalerite Ore with name ct_shaped-776097571
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Uraninite Ore with name ct_shaped704307699
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Spessartine Ore with name ct_shaped-442348211
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Silver Ore with name ct_shaped-491971597
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lead Ore with name ct_shaped-1917698046
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Molybdenite Ore with name ct_shaped-1517336196
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bastnasite Ore with name ct_shaped-756985516
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Monazite Ore with name ct_shaped1510508911
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Tetrahedrite Ore with name ct_shaped-1811365619
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Topaz Ore with name ct_shaped-140313418
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ruby Ore with name ct_shaped634763274
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Stibnite Ore with name ct_shaped-1397697258
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Thorium Ore with name ct_shaped506977586
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Malachite Ore with name ct_shaped-524735788
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pyrite Ore with name ct_shaped128381173
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Beryllium Ore with name ct_shaped1808897580
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Salt Ore with name ct_shaped1650054941
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Rock Salt Ore with name ct_shaped1056544787
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lazurite Ore with name ct_shaped1576866671
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Vanadium Magnetite Ore with name ct_shaped1828935813
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Calcite Ore with name ct_shaped1036334316
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sodalite Ore with name ct_shaped873819726
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lapis Ore with name ct_shaped-186017522
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Coal Ore with name ct_shaped-2111964418
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cinnabar Ore with name ct_shaped1797112825
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Redstone Ore with name ct_shaped1862534419
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Talc Ore with name ct_shaped-1461093575
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pyrope Ore with name ct_shaped1241651524
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Soapstone Ore with name ct_shaped-1608133063
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Banded Iron Ore with name ct_shaped-382788111
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Galena Ore with name ct_shaped-1447249374
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Almandine Ore with name ct_shaped-739886295
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Garnierite Ore with name ct_shaped-1758513162
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nickel Ore with name ct_shaped-1038293146
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Barite Ore with name ct_shaped1570177539
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lepidolite Ore with name ct_shaped-577766009
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bentonite Ore with name ct_shaped1555850192
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for item.contenttweaker.omnicoin.name with name ct_shapeless1979874670
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for item.contenttweaker.omnicoin5.name with name ct_shapeless1209043925
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for item.contenttweaker.omnicoin25.name with name ct_shapeless1328382278
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Aluminium Ore with name ct_shaped220693943
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bauxite Ore with name ct_shaped1197719574
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Grossular Ore with name ct_shaped1405240682
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pyrolusite Ore with name ct_shaped-2132090382
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Magnesite Ore with name ct_shaped1777123951
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Olivine Ore with name ct_shaped-1154209740
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Tin Ore with name ct_shaped-146094665
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cassiterite Ore with name ct_shaped-274144030
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lithium Ore with name ct_shaped1729563406
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Spodumene Ore with name ct_shaped-1597266000
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chalcopyrite Ore with name ct_shaped-1119906551
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Copper Ore with name ct_shaped-1492034827
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sulfur Ore with name ct_shaped-597062763
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Quartzite Ore with name ct_shaped-679866179
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nether Quartz Ore with name ct_shaped255315776
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Certus Quartz Ore with name ct_shaped-2122896298
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pentlandite Ore with name ct_shaped-1731913838
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Glauconite Sand Ore with name ct_shaped-1996867600
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Brown Limonite Ore with name ct_shaped298780880
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Yellow Limonite Ore with name ct_shaped2139193748
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Ore with name ct_shaped-1149265116
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Magnetite Ore with name ct_shaped1730009230
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.omnicoin100.name with name ct_shaped-1475329307
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.omnicoin25.name with name ct_shaped-502788993
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.omnicoin5.name with name ct_shaped-1659396724
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Enchanted Book with name of_craft_airtight_seal
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Crafting Core with name ct_shaped-1895481743
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ender Tether with name Ender Tether
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Player Trap with name Player Trap
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ender Hopper with name Ender Hopper
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Vector Plate with name Vector Plate
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sneaky Block with name Sneaky Block
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Loot Fabricator with name ct_shaped-967286803
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Dark Steel Machine Hull with name ct_shaped-1754542549
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Simulation Chamber with name ct_shaped717000615
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Blank Data Model with name ct_shaped1758408202
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Rotten Flesh with name ct_shapeless1072056979
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Rotten Flesh with name ct_shapeless-241465303
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for String with name ct_shapeless1145360290
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Wither Skeleton Skull with name ct_shapeless-2069358766
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Dirt with name ct_shapeless-673161355
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for TranslatableComponent{key='deepmoblearning.data_model.display_name', args=[Thermal Elemental], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}} (Basic) with name ct_shapeless152737778
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Deep Learner with name ct_shaped-1176525326
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Draconic Core with name ct_shaped1352372584
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Wyvern Energy Core with name ct_shaped1939949066
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bow of the Wyvern with name ct_shaped-144994350
@@ -1803,9 +1916,11 @@ Use JEI to check potential vein depth"
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for ME Controller with name me_controller
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Personal Shrinking Device with name ct_shaped-407883873
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Compact Machine Wall with name ct_shaped812454390
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for multiblocktweaker.machine.dml_sim_chamber.name with name simulation_controller
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for mbt.machine.microverse_projector_basic.name with name microverse_projector_basic
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for mbt.machine.microverse_projector_advanced.name with name microverse_projector_advanced
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for mbt.machine.microverse_projector_advanced_ii.name with name microverse_projector_advanced_ii
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for mbt.machine.creative_tank_provider.name with name creative_tank_provider
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for multiblocktweaker.machine.naquadah_reactor_1.name with name naquadah_reactor_1
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for multiblocktweaker.machine.naquadah_reactor_2.name with name naquadah_reactor_2
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Uranium RTG with name of_nc_rtg_uranium
@@ -1911,27 +2026,47 @@ Use JEI to check potential vein depth"
 [POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Mana Infused Ingot with name ct_shapeless2142018503
 [POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Mana Infused Metal Dust with name ct_shapeless1630890063
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Flat Lamp with name ct_shaped433901769
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nether Cake with name ct_shaped539801564
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pressurized Fluid Conduit with name ct_shaped-1812662234
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Farming Station with name farming_station
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Exchanging Gadget with name exchangertool
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nether Cake with name ct_shaped1576773454
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Red Alloy Dust with name ct_shapeless1688564546
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Clay with name ct_shapeless-1429000943
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ender Tank with name ct_shaped326264316
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Ender Tank with name ct_shapeless1636798566
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Basic Macerator with name ct_shaped683029399
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Advanced Macerator with name ct_shaped2007200361
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for LV Electric Piston with name ct_shaped449795168
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pressurized Fluid Conduit with name ct_shaped-492807426
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Advanced Extruder with name ct_shaped1837608748
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Advanced Extruder II with name ct_shaped87157253
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Advanced Extruder III with name ct_shaped1992518710
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for material.conductive_iron Dust with name ct_shapeless-455990316
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Steam Oven with name ct_shaped-1339607866
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Steam Grinder with name ct_shaped1062955478
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Fireclay Dust with name fireclay_dust
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.impossiblerealmdata.name with name of_impossiblerealmdata_x1
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.impossiblerealmdata.name with name of_impossiblerealmdata_x2
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.impossiblerealmdata.name with name of_impossiblerealmdata_x4
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for item.contenttweaker.dragonlairdata.name with name of_dragonlairdata
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for item.contenttweaker.witherrealmdata.name with name of_witherrealmdata
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.quantumflux.name with name of_quantumflux_a
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.deepmoblearning.living_matter_extraterrestrial.name with name of_dml_living_matter_extraterrestrial
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Infinite Water Source with name of_nc_water_source
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Network Visualisation Tool with name ae2stuff_nvt
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Item Conduit with name ct_shaped2132117328
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ender Fluid Conduit with name ct_shaped-1907149654
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Numismatic Dynamo (Basic) with name ct_shaped-495975635
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Automatic Maintenance Hatch with name ct_shaped-1862731157
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Small Storage Crate with name ct_shaped-414161868
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Upgrade Template with name ct_shaped990985679
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Storage Upgrade (IV) with name ct_shaped-1697246589
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Storage Upgrade (V) with name ct_shaped1029929296
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Rubber Sheet with name ct_shaped-497671059
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Item Conduit with name ct_shaped1202916776
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ender Fluid Conduit with name ct_shaped-437719358
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for LV Electric Motor with name ct_shaped-1228904473
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Glass Tube with name ct_shaped643015539
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Circuit Board with name basic_circuit_board
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Numismatic Dynamo (Basic) with name ct_shaped1009214115
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Upgrade Template with name ct_shaped331098765
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cobblestone Generator with name of_nc_cobblestone_generator
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cobblestone Generator with name of_nc_cobblestone_generator_mirrored
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Crystal Growth Chamber with name ct_shaped-1323753242
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elite Parallel Control Hatch with name ct_shaped-1261921836
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Master Parallel Control Hatch with name ct_shaped-77808856
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ultimate Parallel Control Hatch with name ct_shaped-1819399920
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Super Parallel Control Hatch with name ct_shaped-157102830
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Crystal Growth Chamber with name ct_shaped2065685846
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Distillation Tower with name ct_shaped1989140329
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Advanced Cutting Machine II with name ct_shaped1385163939
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Blacklight with name ct_shaped57811599
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sterilizing Filter Casing with name ct_shaped1975129857
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Rotary Hearth Furnace with name ct_shaped-376093863
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bulk Blast Chiller with name ct_shaped-2033794679
 [POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <gregtech:meta_ingot:32004>
 [POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <gregtech:meta_ingot:32004>
 [POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <ore:ingotIridium>
@@ -1964,8 +2099,6 @@ Use JEI to check potential vein depth"
 [POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <gregtech:meta_ingot:32010>
 [POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <minecraft:ender_pearl>
 [POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <minecraft:ender_pearl>
-[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <gregtech:meta_ingot:64>
-[POSTINITIALIZATION][SERVER][INFO] 18 recipes removed for: <gregtech:meta_ingot:64>
 [POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <threng:material>
 [POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <threng:material>
 [POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <nuclearcraft:dust_oxide:2>
@@ -2196,13 +2329,18 @@ Use JEI to check potential vein depth"
 [POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <projectred-core:resource_item:320>
 [POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <thermalfoundation:rockwool:7>
 [POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <thermalfoundation:rockwool:7>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <gregtech:meta_nugget:335>
+[POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <gregtech:meta_nugget:335>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <gregtech:meta_item_1:352>
+[POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <gregtech:meta_item_1:352>
 [POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <gregtech:meta_dust:32004>
 [POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <gregtech:meta_item_1:438>
 [POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <gregtech:meta_item_1:439>
 [POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <gregtech:meta_dust:332>
 [POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <actuallyadditions:block_misc:3>
 [POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <thermalfoundation:material:895>
-[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <gregtech:meta_dust:64>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <gregtech:meta_dust:2525>
 [AVAILABLE][SERVER][INFO] Altering Compactor Recipe(s) for <actuallyadditions:item_crystal_empowered> * 4 in mode: GEAR
 [AVAILABLE][SERVER][INFO] Altering Compactor Recipe(s) for <actuallyadditions:item_crystal_empowered:1> * 4 in mode: GEAR
 [AVAILABLE][SERVER][INFO] Altering Compactor Recipe(s) for <actuallyadditions:item_crystal_empowered:2> * 4 in mode: GEAR
