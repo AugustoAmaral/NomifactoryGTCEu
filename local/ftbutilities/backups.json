@@ -47,5 +47,19 @@
 		"index": 7,
 		"success": true,
 		"size": 77792064
+	},
+	{
+		"time": 1686142037826,
+		"file": "2023-06-07-12-47-17.zip",
+		"index": 8,
+		"success": true,
+		"size": 77795836
+	},
+	{
+		"time": 1686143837862,
+		"file": "2023-06-07-13-17-17.zip",
+		"index": 9,
+		"success": true,
+		"size": 77797209
 	}
 ]
