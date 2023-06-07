@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-06-07 11:48:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2023-06-01 02:49:42 +0000"
@@ -533,9 +539,21 @@
     },
     "done": true
   },
+  "gregtech:low_voltage/88_first_cover_place": {
+    "criteria": {
+      "first_cover_place": "2023-06-07 12:09:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_at_least_9_lapis": "2023-06-01 14:01:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-06-07 11:48:18 +0000"
     },
     "done": true
   },
