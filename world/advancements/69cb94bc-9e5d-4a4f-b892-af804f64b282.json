@@ -499,6 +499,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/charger": {
+    "criteria": {
+      "certus": "2023-06-09 14:55:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-05-21 21:36:59 +0000"
