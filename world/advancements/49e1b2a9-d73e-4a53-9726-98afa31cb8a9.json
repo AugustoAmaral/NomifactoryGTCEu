@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
     "criteria": {
       "has_lapis": "2023-06-01 13:51:39 +0000"
@@ -80,6 +86,12 @@
   "minecraft:recipes/misc/magenta_dye_from_lapis_red_pink": {
     "criteria": {
       "has_lapis": "2023-06-01 13:51:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
     },
     "done": true
   },
@@ -137,6 +149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2023-05-30 10:48:14 +0000"
@@ -152,6 +170,12 @@
   "minecraft:recipes/decorations/magenta_stained_glass_pane": {
     "criteria": {
       "has_glass": "2023-06-01 13:50:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_at_least_9_iron_ingot": "2023-06-10 12:46:52 +0000"
     },
     "done": true
   },
@@ -176,6 +200,12 @@
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_glass": "2023-06-01 13:50:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
     },
     "done": true
   },
@@ -269,9 +299,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_at_least_9_emerald": "2023-06-10 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_wart_block": {
     "criteria": {
       "has_nether_wart": "2023-06-10 00:13:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
     },
     "done": true
   },
@@ -281,9 +335,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_block": {
+    "criteria": {
+      "has_iron_block": "2023-06-10 13:04:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_log": "2023-06-07 12:26:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
     },
     "done": true
   },
@@ -317,9 +395,21 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/presses": {
+    "criteria": {
+      "calc": "2023-06-10 13:15:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2023-06-10 00:10:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
     },
     "done": true
   },
@@ -385,6 +475,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_sand": "2023-06-01 02:49:42 +0000"
@@ -400,6 +496,12 @@
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_sand": "2023-06-01 02:49:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2023-06-10 12:59:36 +0000"
     },
     "done": true
   },
@@ -439,11 +541,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2023-06-10 13:04:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "bred_cow": "2023-05-30 11:07:39 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
   },
   "gregtech:steam/2_more_tools": {
     "criteria": {
@@ -487,6 +601,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2023-06-01 13:59:59 +0000"
@@ -503,12 +623,20 @@
     "criteria": {
       "forest": "2023-06-01 02:51:58 +0000",
       "swampland": "2023-05-30 11:06:12 +0000",
+      "birch_forest": "2023-06-10 13:20:29 +0000",
       "taiga": "2023-05-29 13:40:21 +0000",
       "taiga_hills": "2023-05-30 11:20:27 +0000",
+      "birch_forest_hills": "2023-06-10 13:20:12 +0000",
       "extreme_hills": "2023-05-29 13:40:41 +0000",
       "river": "2023-05-30 21:49:33 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/armor_stand": {
     "criteria": {
@@ -555,6 +683,12 @@
   "minecraft:recipes/decorations/green_stained_glass_pane": {
     "criteria": {
       "has_glass": "2023-06-01 13:50:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
     },
     "done": true
   },
@@ -612,9 +746,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2023-05-30 11:19:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
     },
     "done": true
   },
@@ -681,6 +827,12 @@
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2023-06-01 13:50:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-10 12:46:48 +0000"
     },
     "done": true
   },
@@ -831,6 +983,24 @@
   "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
       "has_glass": "2023-06-01 13:50:11 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/compass": {
+    "criteria": {
+      "compass": "2023-06-10 13:09:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2023-06-10 12:46:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-06-10 13:04:53 +0000"
     },
     "done": true
   },
