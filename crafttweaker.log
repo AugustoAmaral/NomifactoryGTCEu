@@ -1,24 +1,24 @@
 [PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Zuniroa
-Ncc1702
-Fbigummy
-DreamThorn
-Peregrinus11
-Luvely
-NerdyWhiteGuy
 Genryu
-Spencer Gilbert
-NickT
-AdaraChristine
-Hooley
-WaterMoon
 Belathus
-Jessie Sims
-Quaternary
+WaterMoon
+Fbigummy
 BrÃ¸nsted
 Phillip Swearingain
+Peregrinus11
+DreamThorn
+NickT
+Hooley
+Quaternary
+AdaraChristine
+Zuniroa
 Pongo Sapiens
+Jessie Sims
+Ncc1702
+Luvely
 Legend
+Spencer Gilbert
+NerdyWhiteGuy
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
@@ -75,7 +75,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: expertmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: normalmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[-9998:crafttweaker]: JEICleanup.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 228ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 232ms
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][SERVER][INFO] IgnoreBracketErrorPreprocessor found in {[0:crafttweaker]: ModSpecific/AppliedEnergistics2.zs}, ignoring errors in that file
@@ -130,7 +130,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: expertmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: normalmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[-9998:crafttweaker]: JEICleanup.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 214ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 207ms
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech]]
 [PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [gregtech]
 [PREINITIALIZATION][SERVER][INFO] IgnoreBracketErrorPreprocessor found in {[0:crafttweaker]: ModSpecific/AppliedEnergistics2.zs}, ignoring errors in that file
@@ -185,7 +185,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [gregtech | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: expertmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [gregtech | SIDE_SERVER]: Skipping file {[-1:crafttweaker]: normalmode.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [gregtech | SIDE_SERVER]: Skipping file {[-9998:crafttweaker]: JEICleanup.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 108ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 112ms
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech], [recipeevent | crafttweaker]]
@@ -806,13 +806,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Skipping file {[0:contenttweaker]: ContentTweaker.zs} as we are currently loading with a different loader
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: CraftingCoreUpgrade.zs}
 [INITIALIZATION][SERVER][INFO] --- CraftingCoreUpgrade.zs initialized ---
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Diamatine Crystal Block
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Emeradic Crystal Block
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Palis Crystal Block
 [INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Void Crystal Block
 [INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Enori Crystal Block
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Restonia Crystal Block
 [INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Canola Seed
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Diamatine Crystal Block
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Palis Crystal Block
-[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Emeradic Crystal Block
+[INITIALIZATION][SERVER][INFO] Adding a Combination Crafting recipe for Empowered Restonia Crystal Block
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: CustomWrench.zs}
 [INITIALIZATION][SERVER][INFO] Adding Crescent Hammer to ore dictionary entry wrenches
 [INITIALIZATION][SERVER][INFO] Adding Yeta Wrench to ore dictionary entry wrenches
@@ -1113,7 +1113,7 @@ Use JEI to check potential vein depth"
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[-9998:crafttweaker]: JEICleanup.zs}
 [INITIALIZATION][SERVER][INFO] Adding tooltip for <appliedenergistics2:facade>.withTag({damage: 15, item: "gregtech:meta_block_compressed_7"}): "Facades can be crafted from most blocks, but are hidden from JEI to reduce clutter"
 [INITIALIZATION][SERVER][INFO] Adding tooltip for <gregtech:meta_item_1:330>.withTag({Facade: {id: "minecraft:stone", Count: 1 as byte, Damage: 0 as short}}): "GTCEu Cable facades can be made from most non-tile-entites, and craft into different amounts based on the metal used."
-[INITIALIZATION][SERVER][INFO] Completed script loading in: 1034ms
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 1065ms
 [POSTINITIALIZATION][SERVER][INFO] Removing Inscriber Entry for Printed Silicon
 [POSTINITIALIZATION][SERVER][INFO] Adding Inscriber Entry for Printed Silicon
 [POSTINITIALIZATION][SERVER][INFO] Removing Inscriber Entry for Engineering Processor
@@ -1351,10 +1351,10 @@ Use JEI to check potential vein depth"
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Liquid Fueled Engine with name ar_liquid_engine
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Seat with name ct_shaped1469375226
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Structure Tower with name ct_shaped-1803454788
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pressure Tank with name ar_pressure_tank_0
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for High Pressure Tank with name ar_pressure_tank_0
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Low Pressure Tank with name ar_pressure_tank_1
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for High Pressure Tank with name ar_pressure_tank_2
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Super High Pressure Tank with name ar_pressure_tank_3
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Super High Pressure Tank with name ar_pressure_tank_2
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pressure Tank with name ar_pressure_tank_3
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Packaging Component with name pauto_package_component
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Package Recipe Holder with name pauto_recipe_holder
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Packager with name pauto_packager
