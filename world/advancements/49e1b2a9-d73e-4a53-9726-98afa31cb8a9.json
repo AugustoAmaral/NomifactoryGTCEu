@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2023-06-10 21:54:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_stained_glass_pane": {
     "criteria": {
       "has_glass": "2023-06-01 13:50:11 +0000"
@@ -346,6 +352,18 @@
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_sand": "2023-06-01 02:49:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2023-06-10 21:54:35 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/cable_glass": {
+    "criteria": {
+      "certus": "2023-06-10 22:29:45 +0000"
     },
     "done": true
   },
@@ -921,6 +939,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/crafting_terminal": {
+    "criteria": {
+      "certus": "2023-06-10 22:28:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2023-06-10 12:46:48 +0000"
@@ -936,6 +960,12 @@
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2023-06-10 13:42:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2023-06-10 21:54:35 +0000"
     },
     "done": true
   },
@@ -1014,6 +1044,12 @@
   "enderioconduits:fluid/2_fluid_conduit_pressurized": {
     "criteria": {
       "inv_changed-enderio:liquid_conduit_pressurized": "2023-06-10 21:31:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2023-06-10 21:54:35 +0000"
     },
     "done": true
   },
@@ -1279,6 +1315,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2023-05-30 11:19:30 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/storage_cell": {
+    "criteria": {
+      "c1k": "2023-06-10 22:33:51 +0000"
     },
     "done": true
   },
