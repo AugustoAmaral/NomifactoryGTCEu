@@ -695,15 +695,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_nether_brick": {
-    "criteria": {
-      "has_nether_wart": "2023-06-10 00:13:53 +0000"
-    },
-    "done": true
-  },
   "appliedenergistics2:main/fluix": {
     "criteria": {
       "certus": "2023-06-10 00:11:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick": {
+    "criteria": {
+      "has_nether_wart": "2023-06-10 00:13:53 +0000"
     },
     "done": true
   },
