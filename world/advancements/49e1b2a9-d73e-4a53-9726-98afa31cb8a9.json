@@ -299,9 +299,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2023-06-10 12:12:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane": {
     "criteria": {
       "has_glass": "2023-06-01 13:50:11 +0000"
+    },
+    "done": true
+  },
+  "enderiomachines:basics/sagmill/9_white": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2023-06-10 12:10:35 +0000"
     },
     "done": true
   },
@@ -320,9 +332,10 @@
   "enderioconduits:root": {
     "criteria": {
       "inv_changed-enderio:clay": "2023-05-30 21:50:23 +0000",
+      "inv_changed-enderio:gravel": "2023-06-10 12:12:33 +0000",
       "inv_changed-enderio:sand": "2023-06-01 02:49:42 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
