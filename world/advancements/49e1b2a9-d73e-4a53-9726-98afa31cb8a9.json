@@ -661,6 +661,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2023-06-14 12:25:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab": {
     "criteria": {
       "has_stonebrick": "2023-05-30 11:20:17 +0000"
@@ -1131,9 +1137,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2023-06-14 12:44:18 +0000"
+    },
+    "done": true
+  },
   "enderiomachines:root": {
     "criteria": {
       "inv_changed-enderio:block_machine_chassis_root": "2023-06-11 00:12:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2023-06-14 12:37:39 +0000"
     },
     "done": true
   },
@@ -1317,6 +1335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2023-06-14 12:44:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2023-06-10 00:10:57 +0000"
@@ -1425,6 +1449,12 @@
     },
     "done": true
   },
+  "gregtech:steam/1_first_tools": {
+    "criteria": {
+      "location": "2023-06-14 12:19:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2023-06-10 23:01:07 +0000"
@@ -1519,6 +1549,12 @@
   "minecraft:recipes/building_blocks/brown_stained_glass": {
     "criteria": {
       "has_glass": "2023-06-01 13:50:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2023-06-14 12:44:18 +0000"
     },
     "done": true
   },
@@ -1641,6 +1677,12 @@
       "inv_changed-enderio:item_basic_item_filter2": "2023-06-10 23:22:14 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/stonebrick": {
+    "criteria": {
+      "has_stone": "2023-06-14 12:44:18 +0000"
+    },
+    "done": true
   },
   "enderio:root": {
     "criteria": {
